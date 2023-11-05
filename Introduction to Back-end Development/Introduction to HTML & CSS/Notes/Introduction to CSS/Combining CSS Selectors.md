@@ -74,4 +74,16 @@ h1 h2 p {
 ```
 This selects all `<p>` elements nested within an `<h2>` element, which is itself nested within an `<h1>` element, and sets their font size to 18px.
 
+### 7. Direct Descendant Selector (`>`)
+
+The descendant selector, denoted by a `>` character, selects an element that is a direct descendant of another element. It applies styles to all matching direct descendants within the parent element.
+
+Example:
+```css
+div > p {
+  color: blue;
+}
+```
+This selects all `<p>` elements that are direct descendants of `<div>` elements and makes their text blue.
+
 These methods of combining selectors allow you to target specific elements in your HTML structure and apply styles precisely to achieve the desired visual effects on your web page.
